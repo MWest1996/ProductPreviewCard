@@ -25,16 +25,16 @@
 body{
     font-size: 14px;
     text-align: center;
-    min-height: 100vh;
+    margin: auto;
     background-color: var(--color-cream);
 }
 
 .mainContainer{
     flex: 1;
     display: flex;
+    margin-top: 5rem;
     flex-direction: column;
     align-items: center;
-    margin: auto;
 }
 
 .wrapper{
@@ -181,6 +181,7 @@ h2{
 .attribution { 
     font-size: 11px;
     text-align: center; 
+    margin-top: .5rem;
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
